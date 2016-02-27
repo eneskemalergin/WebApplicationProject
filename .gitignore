@@ -60,3 +60,21 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+# data storage
+
+*.bed
+*.wig
+*.bigWig
+*.gz
+*.fa
+*.gtf
+*.fna
+*.zip
+*.net
+*.t7
+*.hdf5
+*.h5
+
+.DS_Store
+.ipynb_checkpoints
