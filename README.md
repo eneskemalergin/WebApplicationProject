@@ -11,11 +11,11 @@
 * Bootstrap
 
 ## Guideline
-- [ ] Drafting the Divs
-- [ ] Writing the layout 
-- [ ] Flask and HTML interaction
-- [ ] Adding Bootstrap
-- [ ] Main page design
+- [X] Drafting the Divs
+- [X] Writing the layout
+- [X] Flask and HTML interaction
+- [X] Adding Bootstrap
+- [X] Main page design
 - [ ] Templating
 - [ ] User interaction Systems
 - [ ] Password Hashing
