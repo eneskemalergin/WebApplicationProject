@@ -14,3 +14,11 @@ app.secret_key = "secret"
 @app.route('/')
 def main():
     return render_template('index.html')
+
+@app.route('/showSignIn')
+def showSignIn():
+    return render_template('signIn.html')
+
+@app.route('/showSignUp')
+def showSignUp():
+    return render_template('signUp.html')
