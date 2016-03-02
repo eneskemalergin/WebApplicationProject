@@ -16,7 +16,7 @@
 - [X] Flask and HTML interaction
 - [X] Adding Bootstrap
 - [X] Main page design
-- [ ] Templating
+- [X] Templating
 - [ ] User interaction Systems
 - [ ] Password Hashing
 - [ ] Connecting Database
