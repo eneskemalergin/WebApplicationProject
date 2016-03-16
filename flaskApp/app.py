@@ -7,18 +7,29 @@ import uuid
 
 
 app = Flask(__name__)
-app.secret_key = "secret"
-
 
 # Main Page:
 @app.route('/')
 def main():
     return render_template('index.html')
 
+#signIn Page
 @app.route('/showSignIn')
 def showSignIn():
     return render_template('signIn.html')
 
+#signUp Page
 @app.route('/showSignUp')
 def showSignUp():
     return render_template('signUp.html')
+
+@app.route('/gallery')
+def gallery():
+    return render_template('#') # Add when you have it here...
+
+@app.route('/showCourse')
+def showCourse():
+    return render_template('#') # Add when you have it here...
+
+if __name__=="__main__":
+    app.run()

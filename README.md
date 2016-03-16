@@ -17,6 +17,10 @@
 - [X] Adding Bootstrap
 - [X] Main page design
 - [X] Templating
+
+
+> To be complete in other terms
+
 - [ ] User interaction Systems
 - [ ] Password Hashing
 - [ ] Connecting Database
