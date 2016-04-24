@@ -1,12 +1,9 @@
-from flask import Flask, render_template, json, request, redirect, session, jsonify, url_for
-from flask.ext.mysql import MySQL
-from werkzeug import generate_password_hash, check_password_hash
-from werkzeug.wsgi import LimitedStream
-import os
-import uuid
-
+from flask import Flask, render_template
+import jinja2
 
 app = Flask(__name__)
+app.jinja_loader = jinja2.FileSystemLoader('./template')
+
 
 # Main Page:
 @app.route('/')
@@ -23,13 +20,14 @@ def showSignIn():
 def showSignUp():
     return render_template('signUp.html')
 
-@app.route('/gallery')
-def gallery():
-    return render_template('#') # Add when you have it here...
+@app.route('/showGallery')
+def showGallery():
+    return render_template('gallery.html')
 
 @app.route('/showCourse')
 def showCourse():
-    return render_template('#') # Add when you have it here...
+    return render_template('courses.html')
+
 
 if __name__=="__main__":
     app.run()
